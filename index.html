@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">Raka Still To Be Better, Raka learn from his mistakes</a>
+            </div>
+            <ul>
+                <li><a href="#">Maaf dari Raka</a></li>
+                <li><a href="#"> Aku & Kesalahanku</a></li>
+                <li><a href="#"> Janji untuk menjadi lebih baik</a></li>
+                <li><a href="#">Give your Decision</a></li>
+                <li><a href="#">Terima atau Tidak?</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="background">
+        <div class="posisi">
+            <h1>Permintaan maaf dari temanmu Raka</h1>
+            <h2>Yang telah membuatmu jengkel selama satu bulan ke belakang</h2>
+            <p>Assalamualaikum Putri, di momen lebaran yang penuh maaf maafan ini,<br> 
+                aku ingin meminta maaf atas kesalahan yang saat itu aku lakukan,<br>
+                aku harus tetap menuntut permintaan maafku ini ke kamu put<br>
+                karena aku takut,  di akhirat nanti ini akan jadi hutang apabila tidak ditunaikan ke orang yang disakiti,<br>
+                aku tidak memaksa untuk kita berkomunikasi untuk ke depannya,<br>
+                aku tau kamu masih sinis jika ada aku. sekali lagi, aku hanya ingin meminta maaf sebesar besarnya<br>
+                aku akan jadikan ini sebagai pembelajaran ke depannya untuk lebih baik lagi dalam berhubungan terhadap lawan jenis.<br>
+                dan pada akhirnya Minal Aidzin Wal Faidzin Mohon Maaf Lahir dan Batin🥹🙏🏻</p>
+                <div class="tombol">
+                    <button id="terimaBtn">Terima</button>
+                    <button id="plisTerimaBtn">Plis terima🥹</button>
+                </div>
+                <p id="pesanTambahan"></p>
+            </div>
+        </div>
+    
+        <script>
+            document.getElementById("terimaBtn").addEventListener("click", function() {
+                alert("Terima kasih sudah memaafkan aku! 🥹🙏");
+            });
+    
+            document.getElementById("plisTerimaBtn").addEventListener("click", function() {
+                document.getElementById("pesanTambahan").innerText = "Aku sangat bersyukur dan janji tidak akan mengulangi kesalahanku! 🫂";
+            });
+        </script>
+    </body>
+    
+    </html>
